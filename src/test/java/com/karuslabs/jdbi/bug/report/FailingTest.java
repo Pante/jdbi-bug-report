@@ -16,10 +16,6 @@ import static org.junit.jupiter.api.Assertions.fail;
 record Foo(UUID id, UUID next, long createdAt, long updatedAt) {}
 
 public class FailingTest {
-
-    static final String UPSERT = """
-                                
-    """;
     
     Jdbi jdbi;
     
